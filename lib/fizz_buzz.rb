@@ -14,3 +14,4 @@ range = 1..150
 range.each do |x|
   puts fizz_buzz(x)
 end
+
