@@ -1,16 +1,16 @@
 def fizz_buzz(number)
   if number % 15 == 0
-    "fizz_buzz"
+    "Fizz Buzz"
   elsif  number % 3 == 0
-    "fizz"
+    "Fizz"
   elsif number % 5 == 0
-    "buzz"
+    "Buzz"
   else
     number.to_s
   end
 end
 
-range = 1..30
+range = 1..150
 range.each do |x|
   puts fizz_buzz(x)
 end
