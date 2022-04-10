@@ -1,3 +1,16 @@
 def fizz_buzz(number)
-  # 実装してください
+  if number % 15 == 0
+    "fizz_buzz"
+  elsif  number % 3 == 0
+    "fizz"
+  elsif number % 5 == 0
+    "buzz"
+  else
+    number.to_s
+  end
+end
+
+range = 1..30
+range.each do |x|
+  puts fizz_buzz(x)
 end
